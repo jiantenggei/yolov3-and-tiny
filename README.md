@@ -34,6 +34,8 @@ model_data 目录下摆放.h5 文件
 **注意：训练时根据设备条件 设置合适的batch_size**
 # 其他地址：
 csdn 博客地址： https://blog.csdn.net/qq_38676487/article/details/120443059?spm=1001.2014.3001.5501
+
+b站 配置讲解: https://www.bilibili.com/video/BV13r4y127wr
 内容| 链接
 -------- | -----
 VOC2007 数据集 | [链接](https://www.kaggle.com/yihaoyang/voc2007)
