@@ -25,6 +25,7 @@ model_data 目录下摆放.h5 文件
 
 # 训练步骤
 1.运行 voc_annotation.py 生成 训练索引 2007_train.txt 和2007——val.txt （注意生成时，自己的图片是png 还是jpg ，需要更改一下 保证 VOCdevkit\VOC2007\ImageSets\文件夹下有Main 文件夹）
+
 2. 运行 kmeans.py 聚类 生存anchor boxes,存入在yolo_anchors1.txt 中
 3. 找到 train_yolov3.py 或者train_tiny_model.py,更改配置路径，点击运行
 
