@@ -24,8 +24,8 @@ TensorFlow-gpu  | 2.5.0
 model_data 目录下摆放.h5 文件
 
 # 训练步骤
-1. 运行 kmeans.py 聚类 生存anchor boxes,存入在yolo_anchors1.txt 中
-2. 运行 voc_annotation.py 生成 训练索引 2007_train.txt 和2007——val.txt
+1.运行 voc_annotation.py 生成 训练索引 2007_train.txt 和2007——val.txt （注意生成时，自己的图片是png 还是jpg ，需要更改一下 保证 VOCdevkit\VOC2007\ImageSets\文件夹下有Main 文件夹）
+2. 运行 kmeans.py 聚类 生存anchor boxes,存入在yolo_anchors1.txt 中
 3. 找到 train_yolov3.py 或者train_tiny_model.py,更改配置路径，点击运行
 
 # 预测步骤
@@ -35,7 +35,7 @@ model_data 目录下摆放.h5 文件
 # 其他地址：
 csdn 博客地址： https://blog.csdn.net/qq_38676487/article/details/120443059?spm=1001.2014.3001.5501
 
-b站 配置讲解: https://www.bilibili.com/video/BV13r4y127wr
+b站 配置讲解: https://www.bilibili.com/video/BV13r4y127wr（已删除）
 内容| 链接
 -------- | -----
 VOC2007 数据集 | [链接](https://www.kaggle.com/yihaoyang/voc2007)
